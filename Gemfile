@@ -33,10 +33,14 @@ gem 'spring',        group: :development
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'capistrano', '~>3.2.0'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'simple_form'
+
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'friendly_id', '~> 5.0.0'
